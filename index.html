@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donación Voluntaria</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Contenedor Principal -->
+    <div class="container">
+        <img src="media/earth.png" alt="Earth-Chan" class="image">
+        <!-- Recuadro a la derecha -->
+         <div class="form-container">
+             <h1>¡Earth-Chan te necesita!</h1>
+             <p>Ingresa los datos de tu tarjeta:</p>
+             <form>
+                <label for="ccv">CCV:</label>
+                <input type="text" name="ccv" id="ccv"><br>
+
+                <label for="numero">Número:</label>
+                <input type="text" name="numero" id="numero"><br>
+
+               <!-- Contenedor para MM y YY en la misma fila -->
+                <div class="row">
+                    <label for="mm">MM:</label>
+                    <input type="text" id="mm" name="mm" style="width: 50px;">
+                    
+                    <label for="yy">YY:</label>
+                    <input type="text" id="yy" name="yy" style="width: 50px;">
+                </div>
+                <button type="submit">Enviar</button>
+
+             </form>
+         </div>
+    </div>
+    <h1 class="final">Cualquier monto es de gran ayuda ^.^ </h1>
+</body>
+</html>
